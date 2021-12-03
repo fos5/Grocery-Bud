@@ -1,0 +1,107 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: beige;
+}
+.container {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 10px 20px  8px 5px #928d8d ;
+    padding: 50px;
+    width: 50%;
+    text-align: center;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.container h1{
+    position: relative;
+    top: -20px;
+    letter-spacing: 2px;
+}
+
+input[type = text] {
+    width: 75%;
+    height: 30%;
+    padding: 12px ;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f0ecec;  
+    border-radius: 10px;
+    border: none;
+}
+input [ type = text]:focus {
+    border: 3px slategrey solid;
+
+}
+/* buttons  */
+.btn {
+    background-color: steelblue;
+    color: white;
+    border: none;
+    width: 80px;
+    padding: 8px;
+    border-radius:5% ;
+    cursor: pointer;
+}
+.clearbtn{
+   position: relative;
+   margin-top: 50px;
+   border: none;
+   color: red;
+   background-color: #ffffff;
+   font-size: large;
+   transition-duration: 0.4s;
+}
+.clearbtn:hover{
+    font-size: 18px;
+    
+ }
+ /* Error Class */
+ .error{
+     color: red;
+     display: none;
+ }
+   /* Style the "Add" button */
+
+  .addBtn:hover {
+    background-color: #bbb;
+  }
+    /* Style the close button */
+    .close {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 12px 16px 12px 16px;
+      }
+      
+      .close:hover {
+        background-color: #f44336;
+        color: white;
+      }
+        /* Set all odd list items to a different color (zebra-stripes) */
+  ul li:nth-child(odd) {
+    background: #f9f9f9;
+  }
+    /* Style the list items */
+    ul li {
+        cursor: pointer;
+        position: relative;
+        padding: 12px 8px 12px 40px;
+        list-style-type: none;
+        background: #eee;
+        font-size: 18px;
+        transition: 0.2s;
+        
+        /* make the list items unselectable */
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+        /* Remove margins and padding from the list */
+  ul {
+    margin: 0;
+    padding: 0;
+  }
